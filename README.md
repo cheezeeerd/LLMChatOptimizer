@@ -22,7 +22,7 @@ This Python script is designed to efficiently process Telegram chat data for ana
 2. Place the `chat_data.json` file in the same directory as the script, or modify the `input_file_path` in the script to match your file location.
 3. Run the script:
    ```bash
-   python telegram_chat_processor.py
+   python optimizer.py
    ```
 4. The processed chat data will be saved in `processed_chat_data.txt`.
 
