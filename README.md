@@ -5,7 +5,7 @@ This Python script is designed to efficiently process Telegram chat data for ana
 - **Remove Non-Text Messages:** Filters out any messages that do not contain text.
 - **Emoji Removal:** Strips emojis from text messages to reduce noise.
 - **Name Anonymization:** Replaces names of participants with initials to preserve privacy and reduce token usage.
-- **Message Filtering:** Excludes messages shorter than 10 characters or longer than 500 characters.
+- **Message Filtering:** Excludes messages that are too short or too long.
 - **Token Count:** Uses the `tiktoken` library to count the number of tokens to ensure compatibility with LLM's context window.
 
 #### Requirements
